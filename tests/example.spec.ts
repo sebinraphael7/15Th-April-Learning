@@ -18,4 +18,6 @@ test("get started link", async ({ page }) => {
     page.getByRole("heading", { name: "Installation" }),
   ).toBeVisible();
   //Test Changes
+  // checking conflicts 1
+  // checking conflicts 2
 });
